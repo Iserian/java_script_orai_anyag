@@ -51,3 +51,10 @@ const kepek = []
 
 let aktualis = 0;
 
+function picture_create(){
+    console.log('picture_create is not "NULL"')
+    picture = document.createElement("img").src = "kepek/ez_egy_fa.png"
+    picture.id = 'picture';
+    picture.classList.add('lot_pictures');
+    document.body.append(picture);
+}
